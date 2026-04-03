@@ -1,9 +1,5 @@
 # 🏦 BankProject
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![GitHub top language](https://img.shields.io/github/languages/top/ia_krytoi/BankProject?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/ia_krytoi/BankProject?style=for-the-badge)
-
 Добро пожаловать в **BankProject** — простую, но мощную систему управления банковскими счетами, написанную на Python с глубоким применением принципов ООП.
 
 ---
@@ -34,7 +30,7 @@
 - Атрибуты `__password` и `__balance` в классе `Account` являются **приватными**.
 - Доступ к ним осуществляется только через специальные методы (`deposit`, `withdraw`, `get_balance`), что гарантирует целостность данных.
 
-### ### 2. 🏛 Классы и Объекты
+### 2. 🏛 Классы и Объекты
 - **Класс `Account`**: Представляет модель счета пользователя с его персональными данными.
 - **Класс `Bank`**: Выступает в роли менеджера, который управляет коллекцией аккаунтов (инкапсулирует логику поиска и создания).
 
@@ -77,9 +73,3 @@ account.deposit(1000)
 # Снимаем деньги с проверкой пароля
 account.withdraw(500, 1234)
 ```
-
----
-
-## 🤝 Контакты
-Если у вас есть вопросы или предложения, создавайте `Issue` или присылайте `Pull Request`! 🌟
-
